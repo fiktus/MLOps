@@ -1,0 +1,23 @@
+{
+  "model_name": "item-loss-predictor",
+  "model_version": "1.0.0",
+  "target": "item_losses",
+  "features": [
+    "item_price",
+    "delivery_days",
+    "client_is_app",
+    "type_prepayment",
+    "historical_return_rate",
+    "avg_item_losses_30d"
+  ],
+  "feature_types": {
+    "item_price": "float",
+    "delivery_days": "integer",
+    "client_is_app": "boolean",
+    "type_prepayment": "string",
+    "historical_return_rate": "float",
+    "avg_item_losses_30d": "float"
+  },
+  "sklearn_version": "1.6.1",
+  "created_at": "2026-01-01T00:00:00Z"
+}
