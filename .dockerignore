@@ -1,0 +1,9 @@
+.venv
+.gitignore
+.idea
+__pycache__
+test.ipynb
+.pytest_cache
+readme.md
+requirements.in
+requirements-model.txt

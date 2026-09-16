@@ -1,3 +1,6 @@
 .venv/
 .idea/
 __pycache__/
+test.ipynb
+requirements.in
+requirements-model.txt
